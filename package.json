@@ -4,8 +4,8 @@
   "description": "Fur render app in ThreeJS",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack watch --mode=development --config webpack.config.js",
-    "prod": "webpack --mode=production --config webpack.config.js"
+    "dev": "vite",
+    "build": "tsc && vite build"
   },
   "keywords": [],
   "author": "Antonio Espinosa García. SEDDI",
@@ -28,9 +28,8 @@
     "eslint-plugin-import": "^2.27.5",
     "source-map-loader": "^4.0.1",
     "ts-loader": "^9.4.2",
-    "typescript": "^5.0.4",
-    "webpack": "^5.76.1",
-    "webpack-cli": "^5.0.1"
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
   },
   "dependencies": {
     "jquery": "^3.6.4"

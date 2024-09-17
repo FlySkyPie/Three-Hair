@@ -1,43 +1,24 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "downlevelIteration": true,
-    "declaration": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "importHelpers": true,
-    "isolatedModules": true,
-    "jsx": "react",
-    "lib": ["dom", "esnext", "es6", "es2017"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noImplicitAny": false,
-    "noImplicitThis": true,
-    "noImplicitReturns": true,
-    "outDir": "dist",
-    "resolveJsonModule": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "sourceMap": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "allowJs": true,
+
+    /* Linting */
     "strict": true,
-    "strictNullChecks": false,
-    "ignoreDeprecations":"5.0",
-    "suppressImplicitAnyIndexErrors": true,
-    "target": "es6",
-    "typeRoots": ["./@types", "./node_modules/@types"],
-    "paths": {
-      "@/*": ["src/*"],
-    }
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
-  "exclude": ["dist", "lib", "node_modules"],
-  "files": ["global.d.ts"],
-  "ts-node": {
-    "esm": true,
-    "compilerOptions": {
-      "module": "CommonJS",
-      "moduleResolution": "node",
-    }
-  },
+  "include": ["src"]
 }

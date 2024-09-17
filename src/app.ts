@@ -9,11 +9,11 @@ import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
 import { GammaCorrectionShader } from 'three/examples/jsm/shaders/GammaCorrectionShader.js';
 import Stats from 'three/examples/jsm/libs/stats.module.js';
 import { brushShader } from './Shaders/BrushShader.js';
-import { BrushTool } from './brushTool';
-import { FurManager } from './furManager';
-import { UILayer } from './guiLayer';
-import { DEBUG_CONFIG, ENVIROMENT_CONFIG } from './config';
-import { ModelManager, TextureType } from './modelManager';
+import { BrushTool } from './brushTool.js';
+import { FurManager } from './furManager.js';
+import { UILayer } from './guiLayer.js';
+import { DEBUG_CONFIG, ENVIROMENT_CONFIG } from './config.js';
+import { ModelManager, TextureType } from './modelManager.js';
 
 
 interface ISceneProps {
