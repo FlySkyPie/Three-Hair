@@ -4,7 +4,7 @@ import {
   CustomBlending,
   SrcAlphaFactor,
   OneMinusSrcAlphaFactor,
-} from '@seddi/three';
+} from 'three';
 /**
  * Shell shader class to store all data needed for the ThreeJs Shader and Raw Shader Material
  */

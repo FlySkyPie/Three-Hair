@@ -1,5 +1,5 @@
 import { __hairMaterial } from "./modelManager";
-import { Color } from "@seddi/three";
+import { Color } from "three";
 
 export const INPUT_FILE_GUI_CONFIG = {
   "Upload Hair Model": function () {

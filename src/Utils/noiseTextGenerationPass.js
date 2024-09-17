@@ -7,7 +7,7 @@ import {
   PlaneGeometry,
   Mesh,
   RepeatWrapping,
-} from '@seddi/three';
+} from 'three';
 import {perlinNoiseShader} from '../Shaders/PerlinNoiseShader'
 
 export class NoiseTextGenerationPass {

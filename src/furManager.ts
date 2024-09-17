@@ -9,8 +9,8 @@ import {
   Vector3,
   BufferGeometry,
   BufferAttribute
-} from '@seddi/three';
-import { mergeVertices } from '@seddi/three/examples/jsm/utils/BufferGeometryUtils.js';
+} from 'three';
+import { mergeVertices } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { NoiseTextGenerationPass } from './Utils/noiseTextGenerationPass';
 import { shellShader } from "./Shaders/ShellShader";
 import { finShader } from "./Shaders/FinShader";

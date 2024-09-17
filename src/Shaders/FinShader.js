@@ -2,7 +2,7 @@
 import {
   DoubleSide,
   NormalBlending,
-} from '@seddi/three';
+} from 'three';
 import { furParams } from '../furManager';
 /**
  * Shell shader class to store all data needed for the ThreeJs Shader and Raw Shader Material

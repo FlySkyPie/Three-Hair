@@ -1,4 +1,4 @@
-import { ShaderPass } from '@seddi/three/examples/jsm/postprocessing/ShaderPass.js';
+import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
 import { App } from './app';
 import { FurManager } from './furManager';
 

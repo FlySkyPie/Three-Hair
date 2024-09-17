@@ -9,8 +9,8 @@ import {
   Camera,
   Vector3,
   Matrix4,
-} from "@seddi/three";
-import { FBXLoader } from "@seddi/three/examples/jsm/loaders/FBXLoader.js";
+} from "three";
+import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader.js";
 import { hairStrandShader } from "./Shaders/HairStrandShader";
 import { App } from "./app";
 import { UILayer } from "./guiLayer";
@@ -19,11 +19,11 @@ import {
   isReady,
   ready,
   generateTangents,
-} from "@seddi/three/examples/jsm/libs/mikktspace.module.js";
+} from "three/examples/jsm/libs/mikktspace.module.js";
 import {
   computeMikkTSpaceTangents,
   mergeVertices,
-} from "@seddi/three/examples/jsm/utils/BufferGeometryUtils.js";
+} from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { forEach } from "lodash";
 import { Triangle } from "./Utils/Triangle";
 import { Console } from "console";

@@ -7,7 +7,7 @@ import {
   ENVIROMENT_CONFIG,
   DEBUG_CONFIG,
 } from "./config";
-import { FrontSide,DoubleSide } from "@seddi/three";
+import { FrontSide,DoubleSide } from "three";
 
 export class UILayer {
   fileInputUI: GUI;

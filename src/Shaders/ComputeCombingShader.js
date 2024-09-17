@@ -1,7 +1,7 @@
 import {
     Uniform,
     Matrix4,
-  } from '@seddi/three';
+  } from 'three';
 /**
  * Data needed for instancing a shader for computing hair new direction when combing
  */

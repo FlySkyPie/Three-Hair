@@ -1,13 +1,13 @@
-import * as THREE from '@seddi/three';
-import { EffectComposer } from '@seddi/three/examples/jsm/postprocessing/EffectComposer.js';
-import { OrbitControls } from '@seddi/three/examples/jsm/controls/OrbitControls.js';
-import { FBXLoader } from '@seddi/three/examples/jsm/loaders/FBXLoader.js';
-import { EXRLoader } from '@seddi/three/examples/jsm/loaders/EXRLoader.js';
+import * as THREE from 'three';
+import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
+import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader.js';
 
 import { HairRenderPass } from './Utils/HairRenderPass.js';
-import { ShaderPass } from '@seddi/three/examples/jsm/postprocessing/ShaderPass.js';
-import { GammaCorrectionShader } from '@seddi/three/examples/jsm/shaders/GammaCorrectionShader.js';
-import Stats from '@seddi/three/examples/jsm/libs/stats.module.js';
+import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
+import { GammaCorrectionShader } from 'three/examples/jsm/shaders/GammaCorrectionShader.js';
+import Stats from 'three/examples/jsm/libs/stats.module.js';
 import { brushShader } from './Shaders/BrushShader.js';
 import { BrushTool } from './brushTool';
 import { FurManager } from './furManager';

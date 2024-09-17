@@ -4,7 +4,7 @@ import {
   CustomBlending,
   SrcAlphaFactor,
   OneMinusSrcAlphaFactor,
-} from '@seddi/three';
+} from 'three';
 /**
  * Hair Strands Shader (Scheuerman Method)
  */

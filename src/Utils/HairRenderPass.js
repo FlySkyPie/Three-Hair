@@ -1,5 +1,5 @@
-import { RenderPass } from "@seddi/three/examples/jsm/postprocessing/RenderPass.js";
-import { Color,DoubleSide,FrontSide,BackSide } from "@seddi/three";
+import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
+import { Color,DoubleSide,FrontSide,BackSide } from "three";
 import { App } from "../app";
 import { __hairMaterial } from "../modelManager";
 
